@@ -1,3 +1,4 @@
+import SeoVid from "../vid/seovid"
 
 export default function about() {
   return (
@@ -11,7 +12,7 @@ export default function about() {
 
             </div>
             <div>
-                <p>It is simply a display of letters to be viewed as a sample with given graphical elements in a file.</p>
+                <p>Partner with RankBoost SEO Agency and unlock the true potential of your online business. Let us help you dominate search engine rankings, increase organic traffic, and drive growth that lasts. Get in touch with us today and embark on a journey towards digital success.</p>
                 <div className="grid grid-cols-3 pt-4">
                     <div>
                         <h1 className="text-4xl font-medium">1<i className="font-medium text-blue-600 ri-add-line"></i></h1>
@@ -28,8 +29,8 @@ export default function about() {
                 </div>
             </div>
         </div>
-        <div className="bg-slate-500 h-[400px] pt-10 flex items-center justify-center">
-            vidoe play
+        <div className="w-full pt-10 flex items-center justify-center">
+            <SeoVid embedId="7lZc_fsw-JU" />
         </div>
     </div>
   )
