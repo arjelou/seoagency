@@ -5,9 +5,9 @@ export default function hero() {
         <div className="grid grid-cols-2 justify-center items-center">
             <div className="">
                 <div>
-                    <h1 className="text-5xl font-medium">One Stop</h1>
-                    <h1 className="text-5xl font-medium pt-2"><bold className="text-blue-600">SEO</bold> Services</h1>
-                    <p className="pt-2">Reference site about Lorem Ipsum, giving information on its origins,<br />as well as a random Lipsum generator.</p>
+                    <h1 className="text-7xl font-medium">One Stop</h1>
+                    <h1 className="text-7xl font-medium pt-2"><bold className="text-blue-600">SEO</bold> Services</h1>
+                    <p className="pt-5 text-[18px] font-medium">RankBoost SEO Agency is a leading digital marketing <br />agency specializing in search engine optimization (SEO) services.</p>
                 </div>
                 <div className="flex pt-5 gap-4 items-center">
                     <button className="bg-blue-600 text-white font-medium px-3 py-2 rounded-md hover:bg-blue-700 transi duration-300 ease-in-out">Get Started</button>
