@@ -8,7 +8,7 @@ export default function about() {
             <div>
                 <h1 className="text-4xl font-medium">We are</h1>
                 <h1 className="text-4xl font-medium">The <bold className="text-blue-600">Best Team</bold></h1>
-                <h1 className="text-4xl font-medium">of Multimedia Services</h1>
+                <h1 className="text-4xl font-medium">of SEO Services</h1>
 
             </div>
             <div>

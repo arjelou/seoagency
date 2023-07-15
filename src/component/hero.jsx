@@ -6,7 +6,7 @@ export default function hero() {
             <div className="">
                 <div>
                     <h1 className="text-5xl font-medium">One Stop</h1>
-                    <h1 className="text-5xl font-medium pt-2"><bold className="text-blue-600">Multimedia</bold> Services</h1>
+                    <h1 className="text-5xl font-medium pt-2"><bold className="text-blue-600">SEO</bold> Services</h1>
                     <p className="pt-2">Reference site about Lorem Ipsum, giving information on its origins,<br />as well as a random Lipsum generator.</p>
                 </div>
                 <div className="flex pt-5 gap-4 items-center">

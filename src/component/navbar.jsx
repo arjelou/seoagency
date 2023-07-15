@@ -1,4 +1,5 @@
 import { navlinks } from "../constant/navlinks";
+import { menu } from "../assets";
 
 export default function navbar() {
   return (
@@ -26,7 +27,8 @@ export default function navbar() {
             </li>
           ))
         } */}
-        Burger
+        <img className="w-[40px]" 
+        src={menu} alt="menu" />
       </ul>
     </nav>
   )
