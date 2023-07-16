@@ -7,8 +7,8 @@ export default function services() {
         <button className="rounded-md bg-blue-100 text-sm text-blue-600 font-medium py-1 px-2">BEST SERVICES</button>
         <div className="sm:grid-cols-1 grid grid-cols-2 pt-5">
             <div>
-                <h1 className="sm:text-4xl text-5xl font-medium">This is the best <bold className="text-blue-600">service</bold> we</h1>
-                <h1 className="sm:text-4xl text-5xl font-medium">provide for you.</h1>
+                <h1 className="sm:text-4xl text-6xl font-medium">This is the best <bold className="text-blue-600">service</bold> we</h1>
+                <h1 className="sm:text-4xl text-6xl font-medium">provide for you.</h1>
             </div>
             <div>
                 <p className="sm:pt-2.5 sm:text-[16px] text-[18px] font-medium">We conduct in-depth keyword research to identify the most relevant and valuable keywords for your business. By targeting the right keywords, we help you attract highly targeted traffic and increase your chances of conversion.</p>

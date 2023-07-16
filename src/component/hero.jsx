@@ -1,9 +1,9 @@
 import heroimage from '../assets/hero_img.svg';
 export default function hero() {
   return (
-    <div className="sm:px-5 px-32 sm:pt-10 pt-20 h-screen sm:h-[500px]">
+    <div className="sm:px-5 px-32 sm:pt-10 pt-[120px] h-screen sm:h-[500px]">
         <div className="sm:grid-cols-1 grid grid-cols-2 justify-center items-center">
-            <div className='flex justify-center'>
+            <div className='hidden sm:flex justify-center'>
                 <div>
                     <img className='hidden sm:flex w-[250px] justify-center items-center ' 
                     src={heroimage} alt="hero_image"/>
