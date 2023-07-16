@@ -1,4 +1,4 @@
-import SeoVid from "../vid/seovid"
+import SeoVid from "../vid/SeoVid"
 
 export default function about() {
   return (
