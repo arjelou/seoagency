@@ -2,14 +2,14 @@ import ctu from '../assets/contactUs.svg'
 
 export default function footer() {
   return (
-    <div className="px-32 mt-[600px]">
+    <div className="sm:px-5 px-32 mt-[600px] sm:mt-[750px] sm:w-full">
         <div className="bg-blue-600 rounded-md mb-8">
-            <div className="grid grid-cols-2">
-                <div className='w-[450px] justify-center flex -mt-[140px]'>
+            <div className="sm:grid-cols-1 grid grid-cols-2">
+                <div className='w-[450px] justify-center flex -mt-[140px] sm:hidden'>
                     <img className=''
                     src={ctu} alt='Why Choose US' />
                 </div>
-                <div className='p-8'>
+                <div className='sm:p-4 p-8'>
                     <div>
                         <h1 className="text-white text-4xl font-medium">Ready to grow your</h1>
                         <h1 className="text-white text-4xl font-medium">business made it special ?</h1>

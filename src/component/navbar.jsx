@@ -18,7 +18,7 @@ export default class navbar extends React.Component {
   return (
     <nav className="sticky top-0 z-10">
       {/* Start Desktop view */}
-      <div className="flex px-32 sm:hidden">
+      <div className="flex px-32 sm:hidden bg-white shadow-sm">
         <img className="w-[100px]" src={logo} alt="menu" />
         <ul className="sm:hidden flex justify-end gap-10 py-5 w-full items-center">
           {
@@ -41,7 +41,7 @@ export default class navbar extends React.Component {
         <div>  
             <img src={this.state.toggle ? close : menu} alt='menu' className='w-[38px] h-[38px] object-contain cursor-pointer ml-5'
             onClick={this.openToggle}/>
-            <div className={`${this.state.toggle ? 'flex' : 'hidden'} p-6 bg-blue-500 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+            <div className={`${this.state.toggle ? 'flex' : 'hidden'} p-6 bg-blue-600 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
                 <ul className='list-none flex flex-col justify-end items-center flex-1 px-6'>
                     <>
                         {navlinks.map((navLink, index) =>(
