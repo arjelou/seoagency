@@ -2,7 +2,7 @@ import SeoVid from "../vid/SeoVid"
 
 export default function about() {
   return (
-    <div className="sm:px-5 px-32">
+    <div className="sm:px-5 px-32 sm:mt-[130px]">
         <button className="rounded-md bg-blue-100 text-sm text-blue-600 font-medium py-1 px-2">ABOUT US</button>
         <div className="sm:grid-cols-1 grid grid-cols-2 items-center pt-5">
             <div>
